@@ -53,6 +53,11 @@ header h1 {
   margin-bottom: 10px;
   animation: bounce 2s infinite alternate;
 }
+header h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  animation: bounce 2s infinite alternate;
+}
 header p {
   font-size: 1.5rem;
 }
