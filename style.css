@@ -126,7 +126,7 @@ footer {
 }
 
 /* ✅ Responsive spécifique */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   header, section {
     justify-content: center;
     padding: 80px 30px;
