@@ -56,7 +56,7 @@ header img.logo-header:hover {
 }
 
 header {
-  background-color: linear-gradient(50deg,rgba(2, 60, 115, 1) 0%, rgba(255, 255, 255, 1) 21%, rgba(255, 255, 255, 1) 56%);
+  background-color: #003b73;
   color: white;
   animation-delay: 0.2s;
 }
