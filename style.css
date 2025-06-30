@@ -124,3 +124,14 @@ footer {
   from {transform: translateY(0);}
   to {transform: translateY(-10px);}
 }
+
+/* ✅ Responsive spécifique */
+@media screen and (max-width: 600px) {
+  header, section {
+    justify-content: center;
+    padding: 60px 20px;
+  }
+  p {
+    max-width: 90%;
+  }
+}
