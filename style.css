@@ -112,7 +112,7 @@ p {
 section.mail-section {
   background-color: #0077c0;
   color: white;
-  min-height: 60vh;
+  min-height: 20vh;
   border-radius: 0;
   box-shadow: none;
   display: flex;
