@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Candidature - Marie-Stella DATO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress-container">
+  <div class="progress-bar" id="progress-bar"></div>
+</div>
+
+<header>
+  <h1>💼 Candidature spontanée</h1>
+  <p>Data Analyst / Analytics Engineer / Product Owner</p>
+</header>
+
+<main>
+  <section>
+    <img src="assets/about.png" alt="À propos" class="logo">
+    <h2>À propos de moi</h2>
+    <p>Bonjour Madame Y,<br><br>
+    Je me permets de vous contacter afin de vous faire part de mon vif intérêt pour rejoindre votre entreprise dans le cadre d’un poste de <strong>Data Analyst, Analytics Engineer ou Product Owner</strong>, en France ou au Bénin.</p>
+  </section>
+
+  <section>
+    <img src="assets/combo-chart.png" alt="Mon profil" class="logo">
+    <h2>Mon profil</h2>
+    <p>Béninoise résidant actuellement en France, je suis <strong>Data Analyst</strong> avec une expérience significative en <strong>exploitation de données, conception de solutions analytiques</strong> et <strong>accompagnement des équipes métiers</strong> dans la prise de décision basée sur la donnée. Je suis aujourd’hui à la recherche d’un poste en CDI, en <strong>remote, hybride ou présentiel</strong>, me permettant d’alterner entre la France et le Bénin, tout en conservant un engagement total dans mes missions.</p>
+  </section>
+
+  <section>
+    <img src="assets/globe.png" alt="Motivations" class="logo">
+    <h2>Mes motivations</h2>
+    <p>Ce qui m’anime particulièrement, c’est de pouvoir <strong>participer à la mise en œuvre de projets data et digitaux de bout en bout</strong>, et surtout de <strong>contribuer activement à l'évolution du digital et de l'utilisation stratégique de la donnée en Afrique</strong>. Intégrer votre structure, et notamment contribuer à vos projets au Bénin, serait pour moi une réelle opportunité de mettre mes compétences au service de cette vision, tout en favorisant l’impact local.</p>
+  </section>
+
+  <section>
+    <img src="assets/handshake.png" alt="Engagement" class="logo">
+    <h2>Engagement et flexibilité</h2>
+    <p>Je suis ouverte à débuter en présentiel sur site, selon les besoins de la mission, et envisage par la suite un mode remote si des projets s’y prêtent, que ce soit au Bénin ou en France.</p>
+  </section>
+
+  <section>
+    <img src="assets/contact.png" alt="Contact" class="logo">
+    <h2>Contact</h2>
+    <p>Je reste à votre disposition pour échanger davantage sur les besoins de votre entreprise et la manière dont je pourrais y contribuer.<br><br>
+    Je vous remercie par avance pour votre retour et votre attention.<br><br>
+    <strong>Bien cordialement,<br>Marie-Stella DATO</strong></p>
+  </section>
+</main>
+
+<footer>
+  © 2025 Marie-Stella DATO - Candidature interactive
+</footer>
+
+<script>
+  window.onscroll = function() {scrollProgress()};
+  function scrollProgress() {
+    const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
+    document.getElementById("progress-bar").style.width = scrolled + "%";
+  }
+</script>
+
+</body>
+</html>
