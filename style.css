@@ -31,7 +31,7 @@ body {
 
 header, section {
   width: 100vw;
-  height: 70vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
