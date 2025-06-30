@@ -129,7 +129,7 @@ footer {
 @media screen and (max-width: 600px) {
   header, section {
     justify-content: center;
-    padding: 60px 20px;
+    padding: 80px 30px;
   }
   p {
     max-width: 90%;
