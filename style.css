@@ -60,11 +60,11 @@ header h2 {
 }
 header p {
   font-size: 1.5rem;
+  animation: bounce 2s infinite alternate;
 }
 
 section {
-  background-color:  #003B73;
-  background: linear-gradient(50deg, rgba(0, 59, 115, 1) 0%, rgba(79, 111, 143, 1) 9%, rgba(255, 255, 255, 1) 56%);
+  background-color: linear-gradient(50deg,rgba(2, 60, 115, 1) 0%, rgba(255, 255, 255, 1) 21%, rgba(255, 255, 255, 1) 56%);
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
